@@ -8,19 +8,28 @@
   "minecraft:adventure/adventuring_time": {
     "criteria": {
       "minecraft:cold_ocean": "2024-06-11 14:33:40 +0000",
-      "minecraft:savanna_plateau": "2024-06-12 16:03:50 +0000",
-      "minecraft:beach": "2024-06-09 15:17:04 +0000",
-      "minecraft:dark_forest": "2024-06-21 13:29:22 +0000",
+      "minecraft:old_growth_pine_taiga": "2024-07-12 09:23:54 +0000",
       "minecraft:forest": "2024-06-18 14:23:56 +0000",
       "minecraft:taiga": "2024-06-18 14:29:22 +0000",
       "minecraft:deep_ocean": "2024-06-21 13:37:51 +0000",
+      "minecraft:lush_caves": "2024-06-18 15:18:36 +0000",
+      "minecraft:desert": "2024-06-21 14:23:50 +0000",
+      "minecraft:ocean": "2024-06-12 14:57:21 +0000",
+      "minecraft:cherry_grove": "2024-07-12 09:21:26 +0000",
+      "minecraft:birch_forest": "2024-07-12 09:21:17 +0000",
+      "minecraft:bamboo_jungle": "2024-07-12 09:20:55 +0000",
+      "minecraft:badlands": "2024-07-12 09:20:42 +0000",
+      "minecraft:savanna_plateau": "2024-06-12 16:03:50 +0000",
+      "minecraft:beach": "2024-06-09 15:17:04 +0000",
+      "minecraft:dark_forest": "2024-06-21 13:29:22 +0000",
+      "minecraft:sparse_jungle": "2024-07-12 09:24:53 +0000",
       "minecraft:river": "2024-06-09 15:20:36 +0000",
       "minecraft:stony_shore": "2024-06-21 13:47:06 +0000",
-      "minecraft:lush_caves": "2024-06-18 15:18:36 +0000",
+      "minecraft:snowy_plains": "2024-07-12 09:22:36 +0000",
+      "minecraft:snowy_taiga": "2024-07-12 09:23:30 +0000",
       "minecraft:old_growth_birch_forest": "2024-06-21 13:29:18 +0000",
-      "minecraft:desert": "2024-06-21 14:23:50 +0000",
       "minecraft:deep_dark": "2024-06-12 15:58:13 +0000",
-      "minecraft:ocean": "2024-06-12 14:57:21 +0000",
+      "minecraft:swamp": "2024-07-12 09:22:50 +0000",
       "minecraft:savanna": "2024-06-21 14:30:11 +0000",
       "minecraft:plains": "2024-06-09 15:17:20 +0000"
     },
@@ -774,6 +783,7 @@
     "criteria": {
       "bread": "2024-06-18 14:41:49 +0000",
       "golden_apple": "2024-06-18 15:12:21 +0000",
+      "cooked_chicken": "2024-07-12 09:13:32 +0000",
       "enchanted_golden_apple": "2024-06-12 15:39:36 +0000",
       "cooked_beef": "2024-06-21 14:05:25 +0000",
       "baked_potato": "2024-06-12 15:39:41 +0000",
@@ -2971,6 +2981,106 @@
   "minecraft:recipes/decorations/magenta_bed": {
     "criteria": {
       "has_magenta_wool": "2024-07-02 03:11:19 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/arrow": {
+    "criteria": {
+      "has_feather": "2024-07-12 09:10:34 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/prismarine_wall_from_prismarine_stonecutting": {
+    "criteria": {
+      "has_prismarine": "2024-07-12 09:15:13 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/prismarine_stairs": {
+    "criteria": {
+      "has_prismarine": "2024-07-12 09:15:13 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/prismarine_wall": {
+    "criteria": {
+      "has_prismarine": "2024-07-12 09:15:13 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/prismarine_slab_from_prismarine_stonecutting": {
+    "criteria": {
+      "has_prismarine": "2024-07-12 09:15:13 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/prismarine_slab": {
+    "criteria": {
+      "has_prismarine": "2024-07-12 09:15:13 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/prismarine_stairs_from_prismarine_stonecutting": {
+    "criteria": {
+      "has_prismarine": "2024-07-12 09:15:13 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dark_prismarine_stairs_from_dark_prismarine_stonecutting": {
+    "criteria": {
+      "has_dark_prismarine": "2024-07-12 09:18:12 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dark_prismarine_stairs": {
+    "criteria": {
+      "has_dark_prismarine": "2024-07-12 09:18:12 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dark_prismarine_slab_from_dark_prismarine_stonecutting": {
+    "criteria": {
+      "has_dark_prismarine": "2024-07-12 09:18:12 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dark_prismarine_slab": {
+    "criteria": {
+      "has_dark_prismarine": "2024-07-12 09:18:12 +0000"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/tame_an_animal": {
+    "criteria": {
+      "tamed_animal": "2024-07-12 09:25:14 +0000"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/whole_pack": {
+    "criteria": {
+      "minecraft:spotted": "2024-07-12 09:25:26 +0000",
+      "minecraft:rusty": "2024-07-12 09:32:34 +0000",
+      "minecraft:pale": "2024-07-12 09:26:08 +0000",
+      "minecraft:black": "2024-07-12 09:25:14 +0000",
+      "minecraft:ashen": "2024-07-12 09:30:13 +0000"
+    },
+    "done": false
+  },
+  "minecraft:recipes/combat/wolf_armor": {
+    "criteria": {
+      "has_armadillo_scute": "2024-07-12 09:25:52 +0000"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/bred_all_animals": {
+    "criteria": {
+      "minecraft:wolf": "2024-07-12 09:37:49 +0000"
+    },
+    "done": false
+  },
+  "minecraft:husbandry/breed_an_animal": {
+    "criteria": {
+      "bred": "2024-07-12 09:37:49 +0000"
     },
     "done": true
   },
